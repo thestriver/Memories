@@ -1,13 +1,15 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Save from "./components/Save";
-
-
+import Works from "./components/Works";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Save />    
+      <Works />
+      <Save />
+      <Footer />
     </div>
   );
 }
