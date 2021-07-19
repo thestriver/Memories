@@ -97,7 +97,7 @@ export default function Save() {
       </section>
 
       {showCopy ? (
-        <div>
+        <div className="mx-8">
           <small class="md:px-48">Your generated url:</small>
           <div className="flex flex-col items-center w-full mb-4 md:flex-row md:px-48">
             <input
@@ -121,7 +121,7 @@ export default function Save() {
 
       {showImage ? (
         <div
-          className="px-20 py-16 my-2 bg-gray-100 rounded-xl mx-72 "
+          className="px-20 py-16 mx-8 my-2 bg-gray-100 rounded-xl md:mx-72 "
           onClick={() => {
             setTimeout(() => {
               setAnimate(true);
@@ -133,7 +133,7 @@ export default function Save() {
       ) : null}
 
       {showText ? (
-        <div className="mx-72 ">
+        <div className="mx-8 md:mx-72">
           <textarea
             class="w-full h-48 px-3 py-2 text-base text-gray-700 placeholder-gray-600 border rounded-lg focus:shadow-outline"
             onChange={(e) => updateTextMemory(e.target.value)}
@@ -149,7 +149,7 @@ export default function Save() {
       ) : null}
 
       {animate ? (
-        <span class="inline-block animate-bounce rounded-full p-4 bg-green-400 text-white text-sm">
+        <span class="hidden md:inline-block  animate-bounce rounded-full p-4 bg-green-400 text-white text-sm">
           <svg
             class="w-6 h-6 mx-auto"
             xmlns="http://www.w3.org/2000/svg"
@@ -199,7 +199,7 @@ export default function Save() {
       </div> */}
 
       {fileUrl && (
-        <section class=" mx-72 py-6 bg-coolGray-100 text-coolGray-900">
+        <section class="md:mx-72 py-6 bg-coolGray-100 text-coolGray-900">
           <div class="">
             <img
               alt=""
@@ -212,7 +212,7 @@ export default function Save() {
 
       {finalText && (
         <div>
-          <div class="bg-gray-100 py-20 px-20 mx-72 my-10 rounded-md ">
+          <div class="bg-gray-100 py-20 px-20 mx-8 md:mx-72 my-10 rounded-md ">
             {finalText}
           </div>
         </div>
