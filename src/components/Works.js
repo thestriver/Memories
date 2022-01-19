@@ -13,7 +13,7 @@ export default function Works() {
         <div className="lg:w-1/2">
           <p className="text-base text-gray-700 md:text-lg">
             When you store your memories with us, we save them on an immutable
-            and secure blockchain called IPFS. IPFS generates a unique address
+            and secure distributed file system called <a href="https://docs.ipfs.tech/concepts/what-is-ipfs/">IPFS</a>.IPFS generates a unique address
             which we use in generating a preview for you. We also give you the
             ability to save this links for future reference.
           </p>

@@ -1,3 +1,3 @@
-Memories is an app that stores memories forever. Built using React and the IPFS web3 protocol.
+Memories App allows you to store your memories Forever for you and your loved ones with. Built using the IPFS distributed protocol.
 
 [Live link](https://memories-ten.vercel.app/)
