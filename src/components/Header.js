@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <div>
       <section class="pb-8">
-        <nav class="flex justify-between items-center py-6 px-4 xl:px-20">
+        <nav class="flex justify-between items-center py-6 px-4 xl:ml-44">
           <a class="text-lg font-semibold" href="#!">
             <img class="h-12" src={logo} alt="" width="auto" />
           </a>
