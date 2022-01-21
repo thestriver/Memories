@@ -2,18 +2,16 @@ export default function Works() {
   return (
     <div
       id="hero2"
-      className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      className="xl:mx-44 lg:mx-10 md:mx-20 mx-10 py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-8 lg:py-10"
     >
       <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
-        <div className="lg:w-1/2">
+        <div className="lg:w-2/3">
           <h2 className="max-w-md mb-6 font-sans text-6xl font-bold tracking-wider text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
             How It Works
           </h2>
-        </div>
-        <div className="lg:w-1/2">
           <p className="text-base text-gray-700 md:text-lg">
             When you store your memories with us, we save them on an immutable
-            and secure distributed file system called <a href="https://docs.ipfs.tech/concepts/what-is-ipfs/">IPFS</a>.IPFS generates a unique address
+            and secure distributed file system called <a href="https://docs.ipfs.tech/concepts/what-is-ipfs/">IPFS</a>. IPFS generates a unique address
             which we use in generating a preview for you. We also give you the
             ability to save this links for future reference.
           </p>

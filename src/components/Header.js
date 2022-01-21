@@ -10,14 +10,14 @@ import logo from "../assets/images/logo.png";
 export default function Header() {
   return (
     <div>
-      <section class="pb-8">
-        <nav class="flex justify-between items-center py-6 px-4 xl:ml-44">
+      <section class="pb-4">
+        <nav class="flex justify-between items-center py-2 px-4 xl:ml-48">
           <a class="text-lg font-semibold" href="#!">
             <img class="h-12" src={logo} alt="" width="auto" />
           </a>
         </nav>
         <div class="container px-4 mx-auto">
-          <div class="flex flex-wrap items-center -mx-4">
+          <div class="flex flex-wrap items-center ">
             <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
               <span class="font-semibold text-xs pl-2 text-gray-800 px-3 py-px rounded-full bg-green-400 ">
                 Memories store your data on the blockchain using IPFS
