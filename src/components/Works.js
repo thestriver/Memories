@@ -2,11 +2,11 @@ export default function Works() {
   return (
     <div
       id="hero2"
-      className="xl:mx-44 lg:mx-10 md:mx-20 mx-10 py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-8 lg:py-10"
+      className="xl:mx-44 lg:mx-10 md:mx-20 mx-10 py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-8 lg:py-5"
     >
-      <div className="flex flex-col mb-6 lg:flex-row md:mb-10">
+      <div className="flex flex-col mb-3 lg:flex-row md:mb-4">
         <div className="lg:w-2/3">
-          <h2 className="max-w-md mb-6 font-sans text-6xl font-bold tracking-wider text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
+          <h2 className="max-w-md mb-3 font-sans text-6xl font-bold tracking-wider text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
             How It Works
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
