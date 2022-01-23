@@ -23,26 +23,26 @@ export default function Works() {
         </p>
       </div>
       <div className="grid gap-8 row-gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        <div>
+        <div className="border-double border-4 border-green-600 rounded-xl p-2">
           <h6 className="mb-2 font-semibold leading-5">Remind Me</h6>
           <p className="mb-3 text-sm text-gray-900">
             Write a letter to your future self or loved ones and we will remind
             you when it's time.
           </p>
         </div>
-        <div>
+        <div className="border-double border-4 border-green-600 rounded-xl p-2">
           <h6 className="mb-2 font-semibold leading-5">Multiple Images</h6>
           <p className="mb-3 text-sm text-gray-900">
             You will be able to save multiple images at once.
           </p>
         </div>
-        <div>
+        <div className="border-double border-4 border-green-600 rounded-xl p-2">
           <h6 className="mb-2 font-semibold leading-5">Dashboard</h6>
           <p className="mb-3 text-sm text-gray-900">
             A personalized dashboard for your stored memories
           </p>
         </div>
-        <div>
+        <div className="border-double border-4 border-green-600 rounded-xl p-2">
           <h6 className="mb-2 font-semibold leading-5">URL shortener</h6>
           <p className="mb-3 text-sm text-gray-900">
             A customized, shareable link for you.
