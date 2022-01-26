@@ -140,7 +140,7 @@ export default function Save() {
             placeholder="Text here"
           />
           <button
-            class="inline-block px-16 py-3 mb-3 mr-4 text-xl font-medium leading-normal bg-green-400 hover:bg-green-500 text-white rounded transition duration-200"
+            class="inline-block px-16 py-3 mb-3 mr-4  text-xl font-medium leading-normal bg-green-400 hover:bg-green-500 text-white rounded transition duration-200"
             onClick={submitMemory}
           >
             Submit
